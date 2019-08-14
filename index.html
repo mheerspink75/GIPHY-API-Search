@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Giphy Search API</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="fixed-top navbar navbar-dark bg-dark justify-content-between">
+        <a class="navbar-brand text-success" href="#">GIPHY Search API</a>
+        <form id="gif-form" class="form-inline">
+          <input
+            class="search form-control mr-sm-2"
+            type="text"
+            placeholder="Search GIPHY"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-success my-2 my-sm-0"
+            type="submit"
+            value="find"
+          >
+            Search
+          </button>
+        </form>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="results"></div>
+    </div>
+
+    <script src="./scripts/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
