@@ -27,10 +27,10 @@ The main purpose of this project is is to create a website with a search engine 
 **1.** First, I created a basic layout of the web and mobile interface design on CodePen.  
 *The CodePen Reference Page can be found [here](https://codepen.io/mheerspink75/pen/wVYNmw?editors=1010).* 
 
-**Desktop View:**
+#### Desktop View:
 ![GIPHY Search Desktop View](/images/GIPHY_Search_Desktop_View.png) 
 
-**Mobile View:**
+#### Mobile View:
 ![GIPHY Search Mobile View](/images/GIPHY_Search_Mobile_View.png)
 
 ### Development Phase:
