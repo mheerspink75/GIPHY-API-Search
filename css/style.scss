@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$color_1: green;
+
+$font_family_1: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$background_color_1: lightgray;
+
+body {
+	background-color: $background_color_1;
+	font-family: $font_family_1;
+}
+img {
+	height: 250px;
+	width: 250px;
+}
+h1 {
+	color: $color_1;
+}
+p {
+	color: $color_1;
+}
