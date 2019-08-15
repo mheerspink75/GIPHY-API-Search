@@ -22,7 +22,7 @@ function showGiphs(dataArray) {
   let output = '<div class="results">';
 
   dataArray.forEach(imgData => {
-    output += `<a href="${imgData.images.original.url}" target="_blank"><img src="${imgData.images.original.url}" alt="${imgData.title}"></a>`;
+    output += `<a href="${imgData.images.original.url}" alt="${imgData.title}" target="_blank"><img src="${imgData.images.original.url}"></a>`;
 
   });
 
