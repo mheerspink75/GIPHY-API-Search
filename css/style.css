@@ -1,8 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 body {
   background-color: lightgray;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 img {
@@ -17,3 +16,4 @@ h1 {
 p {
   color: green;
 }
+/*# sourceMappingURL=style.css.map */
