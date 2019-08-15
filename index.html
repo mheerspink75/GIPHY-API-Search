@@ -1,82 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GIPHY Search API</title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>GIPHY Search API</title>
+    <!-- Bootstrap Stylesheet -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Stylesheets -->
-  <link href="./css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
+    <!-- Custom Stlesheet-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a
+          class="navbar-brand text-success"
+          href="https://developers.giphy.com/docs/api#quick-start-guide"
+          target="_blank"
+          >GIPHY Search API</a
+        >
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/mheerspink75/GIPHY-API-Search"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://codepen.io/mheerspink75/pen/wVYNmw?editors=1010"
+                target="-blank"
+                tabindex="-1"
+                >CodePen</a
+              >
+            </li>
+          </ul>
+          <form id="gif-form" class="form-inline my-2 my-lg-0">
+            <input
+              class="search form-control mr-sm-2"
+              type="text"
+              placeholder="Search GIPHY"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
 
-  <!-- Navigation -->
-  <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand text-success" href="https://developers.giphy.com/docs/api#quick-start-guide"
-        target="_blank">GIPHY Search API</a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/mheerspink75/GIPHY-API-Search" target="_blank">GitHub</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://codepen.io/mheerspink75/pen/wVYNmw?editors=1010" target="-blank"
-              tabindex="-1">CodePen</a>
-          </li>
-        </ul>
-        <form id="gif-form" class="form-inline my-2 my-lg-0">
-          <input class="search form-control mr-sm-2" type="text" placeholder="Search GIPHY" aria-label="Search" />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
-      </div>
-    </nav>
-
-    <!-- Page Content -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="jumbotron col-lg-12 text-center">
-          <h1 class="mt-5">
-            <img src="https://media.giphy.com/media/54Ya3l8S8y1ggAlzTA/giphy.gif" />Welcome to GIPHY Search!
-          </h1>
+      <!-- Page Content -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="jumbotron col-lg-12 text-center">
+            <h1 class="mt-5">
+              Welcome to GIPHY Search!
+            </h1>
+            <p>Enter a search query and click search to display images...</p>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Search Results  -->
-  <div class="container-fluid col-lg-12 text-center">
-    <div class="results">
-      <h1 class="mt-5">
-        <img src="https://media.giphy.com/media/54Ya3l8S8y1ggAlzTA/giphy.gif" />Search results go here...
-      </h1>
-    </div>
-  </div>
+    <!-- Search Results  -->
+    <main>
+      <div class="container-fluid col-lg-12 text-center">
+        <div class="results">
+            <img
+            src="https://media.giphy.com/media/54Ya3l8S8y1ggAlzTA/giphy.gif"
+            alt="GIPHY logo"
+          />
+          <p class="mt-5">
+           Search results display here...
+          </p>
+        </div>
+      </div>
+    </main>
 
-  <!-- Footer -->
-  <footer class="fixed-bottom navbar navbar-dark bg-dark justify-content-end">
-    <a class="navbar-brand text-success" href="https://sites.google.com/view/reference-page/project-2"
-      target="_blank">Google Sites Reference</a>
-  </footer>
+    <!-- Footer -->
+    <footer class="fixed-bottom navbar navbar-dark bg-dark justify-content-inline">
+      <a
+        class="navbar-brand text-success"
+        href="https://sites.google.com/view/reference-page/project-2"
+        target="_blank"
+        >Google Sites Reference</a
+      >
+    </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="./scripts/jquery-3.4.1.min.js"></script>
-  <script src="./scripts/bootstrap.bundle.min.js"></script>
-  <script src="./scripts/main.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="./scripts/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
 
-</body>
-
+    <!--Custom JavaScript-->
+    <script src="./scripts/main.js"></script>
+  </body>
 </html>
