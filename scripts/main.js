@@ -1,5 +1,6 @@
 //Working jQuery Code
 //The top jQuery Code is working
+
 const gifForm = $("#gif-form");
 gifForm.submit(e => {
   e.preventDefault();
