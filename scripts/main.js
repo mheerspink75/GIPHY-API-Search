@@ -1,4 +1,3 @@
-//Working jQuery Code
 const gifForm = $("#gif-form");
 gifForm.submit(e => {
   e.preventDefault();
@@ -11,7 +10,6 @@ gifForm.submit(e => {
     .fail(console.log);
 });
 
-//Working jQuery Code
 function showGiphs(dataArray) {
   const results = document.querySelector(".results");
   let output = "";
@@ -25,4 +23,3 @@ function showGiphs(dataArray) {
     .join("");
   $(".results").html(output);
 }
-
