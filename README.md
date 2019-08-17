@@ -45,13 +45,13 @@ The main purpose of this project is to create a website with a search engine tha
 
 **4.** Created a responsive website using [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/), added a collapsible [Bootstrap Navbar](https://getbootstrap.com/docs/4.0/layout/grid/) and [Bootstrap Input Group](https://getbootstrap.com/docs/4.0/components/input-group/). 
 
-**5.** Added custom CSS and [Ruby SASS](https://sass-lang.com/ruby-sass), transpiled to SCSS, through a combination of the command line and configuring the Visual Studio Code extension [Live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass). Modified CSS to import [Google Fonts](https://www.google.com/search?q=Google+fonts&gs_ivs=1#tts=0).
+**5.** Added custom CSS and [Ruby SASS](https://sass-lang.com/ruby-sass), transpiled to SCSS, through a combination of the command line and configuring the Visual Studio Code extension [Live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass). Modified CSS to import [Google Fonts](https://fonts.google.com/).
 
 **6.** Added working JavaScript code by referencing class materials and code examples found on [Stack Overflow](https://stackoverflow.com/).
 
 **7.** Modified JavaScript code to display search results to the webpage and worked on translating the working JavaScript to jQuery.
 
-**8.** Published the GitHub Repository  [GIPHY-API-Search](https://github.com/mheerspink75/GIPHY-API-Search) to [GitHub Pages](https://page/s.github.com). The working website can be found [here](https://mheerspink75.github.io/GIPHY-API-Search/). 
+**8.** Published the GitHub Repository  [GIPHY-API-Search](https://github.com/mheerspink75/GIPHY-API-Search) to [GitHub Pages](https://pages.github.com/). The working website can be found [here](https://mheerspink75.github.io/GIPHY-API-Search/). 
 
 **9.** Created a new CodePen to experiment with future feature additions [here](https://codepen.io/mheerspink75/pen/yLBOxoa).
 
