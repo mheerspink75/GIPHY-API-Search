@@ -43,7 +43,7 @@ The main purpose of this project is to create a website with a search engine tha
 
 **3.** Obtained an API key through [Giphy Developers](https://developers.giphy.com/docs/api/#quick-start-guide) website.
 
-**4.** Created a responsive website using [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/), added a collapsible [Bootstrap Navbar](https://getbootstrap.com/docs/4.0/layout/grid/) and [Bootstrap Input Group](https://getbootstrap.com/docs/4.0/components/input-group/). 
+**4.** Created a responsive website using [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/layout/grid/), added a collapsible [Bootstrap Navbar](https://getbootstrap.com/docs/4.0/components/navbar/) and [Bootstrap Input Group](https://getbootstrap.com/docs/4.0/components/input-group/). 
 
 **5.** Added custom CSS and [Ruby SASS](https://sass-lang.com/ruby-sass), transpiled to SCSS, through a combination of the command line and configuring the Visual Studio Code extension [Live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass). Modified CSS to import [Google Fonts](https://fonts.google.com/).
 
