@@ -5,7 +5,7 @@ gifForm.submit(e => {
   const url = `https://api.giphy.com/v1/gifs/search?&q=${searchTerm}&limit=80&api_key=3mIxmBZUIIPyb8R69gtxaW8Hsh74dFKV`;
   $.get(url)
     .done(resp => {
-      showGiphs(resp.data.slice(0, 80));
+      showGiphs(resp.data.slice(0, 40));
     })
     .fail(console.log);
 });
