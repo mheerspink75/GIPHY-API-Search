@@ -1,4 +1,5 @@
 const gifForm = $("#gif-form");
+
 gifForm.submit(e => {
   e.preventDefault();
   const searchTerm = $(".search").val();
